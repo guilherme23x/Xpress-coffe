@@ -1,0 +1,419 @@
+* {
+  font-family: "Poppins";
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  background-color: #222224;
+}
+
+/* Seção do Menu Lateral */
+
+.menu_lateral {
+  width: 20%;
+  left: 0;
+  padding: 20px;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #181818;
+  justify-content: space-around;
+  text-transform: uppercase;
+}
+
+.logo {
+  font-size: 20px;
+  text-decoration: none;
+  color: #a06360;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  list-style: none;
+  margin-top: -100px;
+}
+
+li a {
+  text-decoration: none;
+  color: grey;
+  font-size: 18px;
+  transition: 1.5s;
+}
+
+li a:hover {
+  transform: translateY(-3px);
+  color: wheat;
+  display: block;
+}
+
+.social i {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+  color: gray;
+}
+
+.container {
+  height: 100vh;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+/* Seção Hero */
+
+.hero {
+  display: flex;
+  background-image: url(../img/wallpaper2.jpg);
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 55px;
+  color: #e5cfa3;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+/* Seção Categoria */
+
+.cards_categoria {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cards_categoria .card {
+  width: 30%;
+  display: flex;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  object-fit: cover;
+  margin-top: 10%;
+  color: white;
+  text-align: center;
+}
+
+.cards_categoria .card h2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/* Frase 1 */
+
+.oferece {
+  width: 100%;
+  margin-top: 80px;
+  text-align: center;
+  margin-bottom: 20px;
+  height: 25vh;
+}
+
+.oferece h2 {
+  color: white;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.oferece h3 {
+  color: white;
+  font-size: 18px;
+  width: 50%;
+  font-weight: 300;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* Acompanhamento */
+
+.acompanhamento {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.acompanhamento_card {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 60vh;
+  object-fit: cover;
+  color: white;
+  text-align: center;
+}
+
+.acompanhamento_card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.acompanhamento_card h2 {
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+/* Frase 2 */
+
+.fumaça {
+  background-image: url(../img/fumaça.png);
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  margin-top: 10%;
+  height: 30vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.fumaça h2 {
+  text-align: center;
+  font-size: 25px;
+  color: #dcc3af;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+/* Menu Especial */
+
+.menu_especial {
+  width: 100%;
+  margin-top: 5%;
+}
+
+.titulo_especial {
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.cards_menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu_especial img {
+  object-fit: cover;
+}
+
+.menu_especial .cards_menu .card {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 60vh;
+  margin-top: 5%;
+  color: white;
+  text-align: center;
+}
+
+.cards_menu img {
+  height: 50vh;
+  width: 15vw;
+}
+
+.menu_especial .cards_menu h3 {
+  text-align: center;
+  margin-top: 5%;
+  font-weight: 300;
+}
+
+/* Rodapé */
+
+footer {
+  background-color: black;
+  margin-top: 15%;
+  height: 0vh;
+  justify-content: space-between;
+  padding: 5%;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+footer a,
+h2 {
+  color: wheat;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+/* Menu Mobile */
+
+.menu-lateral-mobile {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #222224;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  justify-content: space-around;
+  transition: all 0.5s ease-in-out;
+  z-index: 1;
+}
+
+.menu-lateral-mobile a,
+li {
+  display: block;
+  justify-content: space-around;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.menu-lateral-mobile .social i {
+  font-size: 30px;
+  margin-left: 17px;
+  margin-right: 17px;
+}
+
+.botao-menu {
+  z-index: 50;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 50px;
+  display: none;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: 1s;
+}
+
+.botao-menu img {
+  margin-top: 10%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.menu-lateral-mobile.ativo {
+  left: 0;
+  background-color: #222224d8;
+}
+
+.botao-menu.ativo {
+  background-color: wheat;
+}
+
+@media only screen and (max-device-width: 780px) {
+  
+  /* Seção Categoria */
+  .cards_categoria {
+    display: block;
+    padding: 15px;
+  }
+
+  .cards_categoria .card {
+    width: 100%;
+  }
+
+  .cards_categoria .card h2 {
+    font-size: 30px;
+  }
+
+  /* Frase 1 */
+
+  .oferece h3 {
+    width: 80%;
+    margin-top: 25px;
+  }
+
+  /* Acompanhamentos */
+
+  .acompanhamento {
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+  }
+
+  .acompanhamento_card {
+    width: 80%;
+    height: 20vh;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  /* Seção Menu Especial */
+
+  .menu_especial .cards_menu{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu_especial .cards_menu .card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 30vh;
+    color: white;
+    text-align: center;
+    
+  }
+  
+  .cards_menu img {
+    height: 20vh;
+    width: 80%;
+    object-fit: cover;
+  }
+
+  /* Menu Mobile */
+  .botao-menu {
+    display: block;
+    top: 20;
+    right: 50;
+  }
+
+  .menu_lateral {
+    display: none;
+  }
+}
